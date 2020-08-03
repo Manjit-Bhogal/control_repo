@@ -1,5 +1,5 @@
 class minecraft {
-    file ['/opt/minecraft':
+    file {'/opt/minecraft':
 #    directory {‘/opt/minecraft’:
     ensure => directory,
   }
